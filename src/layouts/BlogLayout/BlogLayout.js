@@ -1,16 +1,18 @@
 import React from "react"
-import "./BlogLayout.scss"
 import { Container, Grid } from "semantic-ui-react"
+import Menu from "../../components/Menu"
+import "./BlogLayout.scss"
 
 export default function BlogLayout(props) {
-  const { children } = props
+  const { children, className } = props
+
   return (
-    <Container className="blog-layout">
+    <Container fluid className={`blog-layout ${className || ""}`}>
       <Grid>
         <Grid.Column mobile={16} tablet={16} computer={4}>
-          <h1>Menu</h1>
+          <Menu />
         </Grid.Column>
-        <Grid.Column mobile={16} tablet={16} computer={4}>
+        <Grid.Column mobile={16} tablet={16} computer={12}>
           {children}
         </Grid.Column>
       </Grid>
