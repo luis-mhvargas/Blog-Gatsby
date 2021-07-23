@@ -19,7 +19,7 @@ export default function Post(props) {
       <div className="markdown-body">
         <div
           dangerouslySetInnerHTML={{
-            __html: TransformOembedToIframe(post.content),
+            __html: TransformOembedToIframe(post.seo_description),
           }}
         />
       </div>
