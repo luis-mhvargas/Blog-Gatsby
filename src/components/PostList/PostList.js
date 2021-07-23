@@ -1,4 +1,3 @@
-  
 import React from "react"
 import { Grid, Card, Icon, Image } from "semantic-ui-react"
 import { Link } from "gatsby"

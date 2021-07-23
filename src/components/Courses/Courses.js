@@ -5,6 +5,7 @@ import dataCourses from "./data"
 import "./Courses.scss"
 
 export default function Courses() {
+  
   return (
     <div className="courses">
       {map(dataCourses, (course, index) => (

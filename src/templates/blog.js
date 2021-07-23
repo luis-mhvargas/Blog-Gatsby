@@ -35,6 +35,11 @@ export const query = graphql`
         url
         content
         createdAt
+        miniatura {
+          localFile {
+            publicURL
+          }
+        }
       }
     }
   }
