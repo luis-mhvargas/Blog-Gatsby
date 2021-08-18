@@ -1,22 +1,22 @@
 export default [
     {
       name: "youtube",
-      link: "https://www.youtube.com/c/AgustinNavarroGaldon",
+      link: "",
     },
     {
       name: "twitter",
-      link: "https://twitter.com/xAgustin93",
+      link: "https://twitter.com/LuisMHVargas",
     },
     {
       name: "instagram",
-      link: "https://www.instagram.com/xagustin93/",
+      link: "",
     },
     {
       name: "facebook",
-      link: "https://www.facebook.com/AgustinNavarroGaldon93",
+      link: "https://www.facebook.com/profile.php?id=100009301041554",
     },
     {
       name: "linkedin",
-      link: "https://www.linkedin.com/in/agustin93/",
+      link: "https://www.linkedin.com/in/luis-mario-hernandez-vargas-80b15b158/",
     },
   ]

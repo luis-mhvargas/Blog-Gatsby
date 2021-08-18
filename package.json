@@ -22,6 +22,8 @@
     "gatsby-source-strapi-nova": "0.0.19",
     "gatsby-transformer-sharp": "^3.8.0",
     "lodash": "^4.17.21",
+    "markdown-it": "^12.2.0",
+    "markdown-react-js": "^1.0.2",
     "moment": "^2.29.1",
     "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
